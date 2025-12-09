@@ -60,13 +60,7 @@ OPENROUTER_API_KEY=your_openrouter_api_key_here
 OPENROUTER_MODEL=google/gemini-2.5-flash
 
 # OpenRouter 使用的 embedding 模型 (可选，默认使用 google/text-embedding-004)
-# 注意：gemini-2.5-flash 是生成模型，不是专门的 embedding 模型
-# 推荐使用专门的 embedding 模型：
-# - google/text-embedding-004 (Google 的 embedding 模型，推荐)
-# - voyage-3.5 (Voyage AI 的高性能 embedding 模型)
-# - text-embedding-ada-002 (OpenAI)
-# - text-embedding-3-small/large (OpenAI)
-OPENROUTER_EMBEDDING_MODEL=google/text-embedding-004
+OPENROUTER_EMBEDDING_MODEL=thenlper/gte-base
 ```
 
 ### 3. 运行开发服务器
