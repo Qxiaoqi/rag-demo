@@ -2,6 +2,8 @@
 
 这是一个使用 Next.js 构建的 RAG (Retrieval-Augmented Generation) 演示项目，帮助你理解 RAG 的实现方式。
 
+![RAG Demo](./public/1.png)
+
 ## 什么是 RAG？
 
 RAG (Retrieval-Augmented Generation) 是一种结合了信息检索和文本生成的技术。它的工作流程如下：
